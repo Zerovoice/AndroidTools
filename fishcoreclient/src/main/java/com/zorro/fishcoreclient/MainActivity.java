@@ -152,43 +152,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-    private void insertSort(LinkedList<Integer> numbers) {
-        int size = numbers.size();
-        Integer temp = null;
-        int j = 0;
 
-        for (int i = 0; i < size; i++) {
-            temp = numbers.get(i);
-            //假如temp比前面的值小，则将前面的值后移
-            for (j = i; j > 0 && temp< numbers.get(j - 1); j--) {
-                numbers.add(j - 1,temp);
-                numbers.remove(j + 1);
-            }
-        }
-    }
 
-    private boolean mayRequestContacts() {
-        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {
-            return true;
-        }else{
-            return PermissionChecker.checkSelfPermission(this, Manifest.permission.READ_CONTACTS) == PackageManager.PERMISSION_GRANTED;
-        }
-    }
-    private boolean hasContactsPermission() {
-        return ActivityCompat.checkSelfPermission(this, Manifest.permission.READ_CONTACTS) == PackageManager.PERMISSION_GRANTED;
-    }
-    private boolean canReadConnacts() {
-        boolean has = false;
-        try {
-            Cursor cursor = this.getContentResolver().query(ContactsContract.Contacts.CONTENT_URI, null, null, null, null);
-            if (cursor.getCount() > 0) {
-                has = true;
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return has;
-    }
     private void startService() {
         Intent intent = new Intent();
         intent.setAction(SERVICE_ACTION);
