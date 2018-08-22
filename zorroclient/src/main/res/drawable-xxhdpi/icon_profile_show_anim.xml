@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+        <item android:drawable="@drawable/icon_transparent" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_1" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_2" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_3" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_4" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_5" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_6" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_7" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_8" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_9" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_10" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_11" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_12" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_13" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_14" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_15" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_16" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_17" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_18" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_19" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_20" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_21" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_22" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_23" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_24" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_25" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_26" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_27" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_28" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_29" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_30" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_31" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_32" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_33" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_profile_show_34" android:duration="30"></item>
+    </animation-list>

@@ -1,0 +1,6 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/btn_remote_close_on" android:state_selected="true" android:state_pressed="true"/>
+    <item android:drawable="@drawable/btn_remote_close" android:state_selected="true" android:state_pressed="false"/>
+    <item android:drawable="@drawable/btn_remote_menu_on" android:state_selected="false" android:state_pressed="true" />
+    <item android:drawable="@drawable/btn_remote_menu" />
+</selector>

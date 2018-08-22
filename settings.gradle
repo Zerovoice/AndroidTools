@@ -1,1 +1,1 @@
-include  ':fishcoreserver', ':fishcoreclient'
+include  ':zorroserver', ':zorroclient'

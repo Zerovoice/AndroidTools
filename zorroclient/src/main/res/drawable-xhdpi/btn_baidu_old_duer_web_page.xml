@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/btn_baidu_old_duer_web_page_false" android:state_pressed="false"/>
+    <item android:drawable="@drawable/btn_baidu_old_duer_web_page_true" android:state_pressed="true"/>
+</selector>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="weixin_title_bg">#318ece</color>
+    <color name="orange">#ffEf4f1f</color>
+    <color name="font_tab_unselected_color">#000000</color>
+    <color name="font_tab_selected_color">#21c505</color>
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">
+        @color/vpi__bright_foreground_holo_light
+    </color>
+    <color name="vpi__bright_foreground_inverse_holo_light">
+        @color/vpi__bright_foreground_holo_dark
+    </color>
+    <color name="zorro_white_color">#ffe7e0</color>
+    <color name="zorro_white_hint_color">#ffc4b3</color>
+    <color name="contact_list_zorro_circle_normal">#5d6268</color>
+    <color name="contact_list_zorro_circle_pressed">#3F474E</color>
+    <color name="zorro_gray_actionbar_pressed">#d9d3d0</color>
+    <color name="zorro_activity_background_white">#f9f9f9</color>
+    <color name="zorro_cursor_color">#52a5eb</color>
+    <color name="zorro_real_red">#FF0000</color>
+    <color name="zorro_white">#FFFFFFFF</color>
+    <color name="zorro_whiteb3">#b3FFFFFF</color>
+    <color name="gray">#d9d8d8</color>
+    <color name="light_gray">#7f7f7f</color>
+    <color name="dark_gray">#555555</color>
+    <color name="black">#000000</color>
+    <color name="black_30alpha">#b3000000</color>
+    <color name="black_40alpha">#66000000</color>
+    <color name="black_20alpha">#b3e7e5e5</color>
+    <color name="action_bar_text_color">#8d8d8a</color>
+    <color name="action_bar_bg_color">#FFFFFFFF</color>
+    <color name="login_button_color">#ee6b48</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="login_button_pressed_color">#f47555</color>
+    <color name="contact_button_text_color">#80cfbc</color>
+    <color name="contact_button_bg_color">#ebebe8</color>
+    <color name="contact_button_pressed_bg_color">#e3e0df</color>
+    <color name="contact_call_button_bg_color">#80cfbc</color>
+    <color name="contact_call_button_pressed_bg_color">#61bda7</color>
+    <color name="circle_backgroud">#eeeeee</color>
+    <color name="keyevent_listitem_normal_bg_color">#f8f7f8</color>
+    <color name="keyevent_listitem_selected_bg_color">#eee7e1</color>
+    <color name="keyevent_listitem_info_notplay">#d2391a</color>
+    <color name="no_network_main_bg">#f9edea</color>
+    <color name="zorro_bg_color">#f0eff3</color>
+    <color name="zorro_tab_bg_color">#f8f8f8</color>
+    <color name="zorro_black_70">#B3000000</color>
+    <color name="zorro_black_60">#99000000</color>
+    <color name="zorro_black_55">#8C000000</color>
+    <color name="zorro_black_50">#80000000</color>
+    <color name="zorro_black_40">#66000000</color>
+    <color name="zorro_black_30">#4d000000</color>
+    <color name="zorro_black_20">#33000000</color>
+    <color name="zorro_black_15">#23000000</color>
+    <color name="zorro_black_10">#1a000000</color>
+    <color name="zorro_black_80">#cc000000</color>
+    <color name="zorro_green">#49b885</color>
+    <color name="zorro_green_on">#3a936a</color>
+    <color name="zorro_red">#d2391a</color>
+    <color name="record_color">#ffece8</color>
+    <color name="keyevent_record_color">#ffece8</color>
+    <color name="promotion_text">#a3a3a3</color>
+    <color name="zorro_gray">#7c8186</color>
+    <color name="white_100">#FFFFFFFF</color>
+    <color name="white_98">#FAFFFFFF</color>
+    <color name="white_95">#F3FFFFFF</color>
+    <color name="white_90">#E5FFFFFF</color>
+    <color name="white_80">#CCFFFFFF</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="white_40">#66FFFFFF</color>
+    <color name="white_30">#4DFFFFFF</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="white_15">#26FFFFFF</color>
+    <color name="white_f23">#f2f2f3</color>
+    <color name="list_item_pressed">#ebe9e8</color>
+    <color name="zorro_main_color">#FF8466</color>
+    <color name="no_video_bg">#CCCCCC</color>
+    <color name="black_alpha30">#4C000000</color>
+    <color name="exp_zorro_text">#FF7F66</color>
+    <color name="no_zorro_text">#d3d1d1</color>
+    <color name="chooser_orange">#FF7F66</color>
+    <color name="font_gray">#b5b5c0</color>
+    <color name="font_black">#56556b</color>
+    <color name="font_black80">#8056556b</color>
+    <color name="font_black20">#3356556b</color>
+    <color name="deep_zorro_gray">#4f4e68</color>
+
+    <color name="white_91">#F8F7F8</color>
+    <color name="white_91_on">#CCCCCC</color>
+
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="accent">#4CAF50</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="white_board_bg">#ebebeb</color>
+    <color name="black_70_percent">#A1000000</color>
+
+    <color name="trans">#00000000</color>
+    <color name="alertdialog_line">#cdced2</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+    <color name="dial_panel_color_red">#FF7F66</color>
+    <color name="dial_bg_color">#fafafa</color>
+    <color name="dial_title_text_color">#969696</color>
+    <color name="ent_name">#737373</color>
+    <color name="_323232">#323232</color>
+
+    <color name="normal_black_color">#242424</color>
+    <color name="highlight_black_color">#343340</color>
+    <color name="normal_gray_color">#9796a7</color>
+    <color name="highlight_gray_color">#797886</color>
+    <color name="normal_lightgray_color">#cccccc</color>
+    <color name="highlight_lightgray_color">#91919a</color>
+    <color name="normal_orange_color">#ff7f66</color>
+    <color name="normal_orange_color_on">#cc6652</color>
+    <color name="normal_orange_color_20">#33ff7f66</color>
+    <color name="normal_orange_color_40">#66ff7f66</color>
+    <color name="color_ff7201">#ff7201</color>
+    <color name="normal_orange_color_50">#80ff7f66</color>
+    <color name="highlight_orange_color">#cc6652</color>
+    <color name="highlight_orange_color_50">#80cc6652</color>
+    <color name="normal_blue_color">#74b4f6</color>
+    <color name="highlight_blue_color">#5d90c5</color>
+    <color name="normal_white_color">#ffffff</color>
+    <color name="highlight_white_color">#cccccc</color>
+    <color name="normal_white_color_50">#80ffffff</color>
+    <color name="normal_white_color_80">#ccffffff</color>
+    <color name="highlight_white_color_50">#80cccccc</color>
+
+    <color name="base_background_color">#ebeaeb</color>
+    <color name="message_bottom_bar_background_color">#f8f6f6</color>
+
+    <color name="line_color">#66aaa8ad</color>
+
+    <color name="album_detail_top_bg">#99000000</color>
+    <color name="recording_point">#f64e4e</color>
+    <color name="c_f64e4e">#f64e4e</color>
+    <color name="c_99ee33">#99ee33</color>
+    <color name="c_7fc23a">#7fc23a</color>
+    <color name="c_82a31c">#82a31c</color>
+    <color name="default_image_color">#cdcdcd</color>
+    <color name="separator_line_color">#dbdadc</color>
+
+    <color name="app_info_bg">#fcfbfc</color>
+    <color name="orange_color_press">#cc6652</color>
+
+
+
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+    <color name="cc6652">#cc6652</color>
+    <color name="cc5252">#cc5252</color>
+
+    <color name="camera_tip_bg">#ff6666</color>
+
+    <color name="brown_80">#cc5f4139</color>
+
+    <color name="line_gray">#d8d5da</color>
+    <color name="number_color_ff7f66">#ff7f66</color>
+    <color name="partTranslucent">#39000000</color>
+
+    <color name="c282828">#282828</color>
+    <color name="c30282828">#30282828</color>
+
+
+
+    <color name="color_282828_30">#4c282828</color>
+    <color name="color_282828_10">#19282828</color>
+    <color name="color_282828_20">#33282828</color>
+    <color name="color_282828_40">#66282828</color>
+    <color name="color_282828_60">#9a282828</color>
+    <color name="color_282828_75">#BF282828</color>
+
+    <color name="color_242424">#242424</color>
+    <color name="color_cc242424">#cc242424</color>
+    <color name="color_992d2d2d">#992d2d2d</color>
+    <color name="color_c2c2c2">#c2c2c2</color>
+    <color name="color_2fa9e6">#2fa9e6</color>
+    <color name="color_66a09ea3">#66a09ea3</color>
+    <color name="color_282828">#282828</color>
+    <color name="color_99282828">#99282828</color>
+    <color name="color_fa8224">#fa8224</color>
+    <color name="color_4dfa8224">#4dfa8224</color>
+    <color name="color_80fa8224">#80fa8224</color>
+    <color name="color_e7383b">#e7383b</color>
+    <color name="color_ededed">#ededed</color>
+    <color name="color_dedede">#dedede</color>
+    <color name="color_f2f2f2">#f2f2f2</color>
+    <color name="color_383838">#383838</color>
+    <color name="color_1e1e1e">#1e1e1e</color>
+    <color name="color_99e7383b">#99e7383b</color>
+    <color name="color_4b1515">#4b1515</color>
+    <color name="color_f6f6f6">#f6f6f6</color>
+    <color name="color_f7f7f7">#f7f7f7</color>
+
+    <color name="color_13787e">#13787e</color>
+    <color name="color_444444">#444444</color>
+    <color name="color_f7901e">#F7901E</color>
+    <color name="color_fdbb30">#FDBB30</color>
+    <color name="color_ccffffff">#ccffffff</color>
+    <color name="color_e5fafafa">#e5fafafa</color>
+    <color name="color_101010">#101010</color>
+</resources>

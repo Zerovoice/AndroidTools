@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">FishCoreClient</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
-    <string name="contact_pstn_nemo_name">设备呼叫转移</string>
-</resources>

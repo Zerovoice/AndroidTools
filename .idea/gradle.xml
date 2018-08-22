@@ -8,8 +8,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/fishcoreclient" />
-            <option value="$PROJECT_DIR$/fishcoreserver" />
+            <option value="$PROJECT_DIR$/zorroclient" />
+            <option value="$PROJECT_DIR$/zorroserver" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

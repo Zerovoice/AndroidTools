@@ -1,0 +1,505 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--
+       Base application theme, dependent on API level. This theme is replacedoundedImage
+       by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+   -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light"></style>
+
+    <style name="picture_prompt_dialog" parent="@android:style/Theme.Dialog">
+        <!-- item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/black_30alpha</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowFullscreen">true</item-->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/black_30alpha</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="xiaoyu_tab_user_guide_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/black_20alpha</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="xiaoyu_select_module_dialog" parent="@style/zorro_theme">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="Transparent" parent="android:Theme.Light">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="HoloProgressBarHorizontal" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">16.0dip</item>
+        <item name="android:minHeight">16.0dip</item>
+    </style>
+
+
+    <style name="GridPasswordView" />
+
+    <style name="GridPasswordView.TextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="GridPasswordView.EditText" parent="GridPasswordView.TextView">
+        <item name="android:cursorVisible">false</item>
+    </style>
+
+    <style name="GridPasswordView.Divider">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+    </style>
+
+    <!-- 自定义仿IOS的AlertDialog的样式 -->
+    <style name="AlertDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="ent_tele_tab_text_style" parent="@android:style/TextAppearance.DeviceDefault.Widget.TextView">
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="ent_tele_tab_left_style" parent="android:Widget.TextView">
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">@style/ent_tele_tab_text_style</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="ent_tele_tab_right_style" parent="android:Widget.TextView">
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">@style/ent_tele_tab_text_style</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+
+    <style name="titlebar_title_name">
+        <item name="android:textSize">15.3sp</item>
+        <item name="android:textColor">#56556b</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:maxEms">15</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="TranslucentTheme" parent="@android:style/Theme.Translucent">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="BootTheme" parent="TranslucentTheme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="BootTranslucentTheme">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="second_guide_activity_theme" parent="@android:style/Theme.Holo">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="ClassroomTheme" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+
+    </style>
+
+    <style name="progress_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@color/zorro_black_20</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="myanexplorer_textview">
+        <item name="android:textColor">@color/color_282828</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">22dp</item>
+        <item name="android:layout_marginBottom">22dp</item>
+        <item name="android:layout_marginLeft">13dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="myanexplorer_ImageView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">13dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+
+    <!-- 注册引导页string style -->
+    <style name="smaller_txt_style">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="smaller_black_txt_style">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">#cc5f4139</item>
+    </style>
+
+    <style name="bigger_txt_style">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="bigger_black_txt_style">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">#cc5f4139</item>
+    </style>
+
+    <style name="select_position_title_white_style">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#99ffffff</item>
+    </style>
+
+    <style name="select_position_title_orange_style">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="BootEditTextType">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#282828</item>
+        <item name="android:textColorHint">#80282828</item>
+        <item name="android:background">#d5d5d5</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="GuideEditTextType">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textColorHint">#3fffffff</item>
+        <item name="android:background">@null</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!--边框-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item>
+        <!--半透明-->
+        <item name="android:windowNoTitle">true</item>
+        <!--无标题-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--背景透明-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--模糊-->
+    </style>
+
+    <style name="UpdateConfigDialog" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowFrame">@null</item>
+        <!--边框-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item>
+        <!--半透明-->
+        <item name="android:windowNoTitle">true</item>
+        <!--无标题-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--背景透明-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--模糊-->
+    </style>
+
+
+    <style name="popwin_anim_style" parent="android:Animation">
+
+        <item name="android:windowEnterAnimation">@anim/popwindow_show_translate</item>
+
+        <item name="android:windowExitAnimation">@anim/popwindow_hide_translate</item>
+
+    </style>
+    <style name="zorro_theme" parent="android:Theme.Holo.Light">
+        <item name="android:dialogTheme">@style/MyApp.Dialog</item>
+
+        <!-- DropDown Menu Style -->
+        <item name="android:dropDownListViewStyle">@style/DropDownListView</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav</item>
+        <item name="android:spinnerDropDownItemStyle">@style/DropDownItem</item>
+        <item name="android:actionBarWidgetTheme">@style/Theme.stylingactionbar.widget</item>
+        <!-- DropDown Menu Style End -->
+        <item name="android:actionBarStyle">@style/NemoActionBar</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_actionbar_back</item>
+        <item name="android:actionMenuTextColor">@color/action_text_color</item>
+        <item name="android:actionMenuTextAppearance">@style/action_MenuTextStyle</item>
+        <item name="android:actionButtonStyle">@style/NemoActionTabTextStyle</item>
+        <!-- Actionbar item background -->
+        <item name="android:actionBarItemBackground">@drawable/actionbar_item_background</item>
+        <!-- Actionbar bottom shadow -->
+        <item name="android:windowContentOverlay">@drawable/solid_shadow_holo</item>
+        <item name="android:editTextBackground">@drawable/zorro_theme_edit_text_holo_light</item>
+        <item name="android:textColorHighlight">#99ff8466</item>
+        <item name="android:textSelectHandleLeft">@drawable/nemo_theme_text_select_handle_left
+        </item>
+        <item name="android:textSelectHandleRight">@drawable/nemo_theme_text_select_handle_right
+        </item>
+        <item name="android:textSelectHandle">@drawable/nemo_theme_text_select_handle_middle</item>
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextView</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/zorro_theme_btn_check_holo_light
+        </item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/zorro_theme_btn_radio_holo_light
+        </item>
+        <item name="android:buttonStyle">@style/Button</item>
+        <item name="android:imageButtonStyle">@style/ImageButtonnemo_theme</item>
+        <item name="android:dropDownSpinnerStyle">@style/Spinnernemo_theme</item>
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBarnemo_theme</item>
+        <item name="android:seekBarStyle">@style/SeekBarnemo_theme</item>
+        <item name="android:ratingBarStyle">@style/RatingBarnemo_theme</item>
+        <item name="android:ratingBarStyleIndicator">@style/RatingBarBignemo_theme</item>
+        <item name="android:ratingBarStyleSmall">@style/RatingBarSmallnemo_theme</item>
+        <item name="android:buttonStyleToggle">@style/Togglenemo_theme</item>
+        <item name="android:listChoiceBackgroundIndicator">@drawable/zorro_theme_list_selector_holo_light</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/zorro_theme_activated_background_holo_light</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/zorro_theme_fastscroll_thumb_holo</item>
+        <item name="android:windowBackground">@color/zorro_white</item>
+    </style>
+
+    <style name="switcher_style">
+        <item name="android:thumb">@drawable/zorro_theme_switch_inner_holo_light</item>
+    </style>
+
+    <style name="linear_layout_list_line_style">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="NemoEditTextStyle">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_color</item>
+    </style>
+
+    <style name="NemoEditTextStyle.Login" parent="NemoEditTextStyle">
+        <item name="android:textColor">@color/zorro_black_70</item>
+        <item name="android:textColorHint">@color/zorro_black_40</item>
+        <item name="android:background">@drawable/login_theme_edit_text_holo_light</item>
+    </style>
+
+    <style name="NemoEditTextStyle.Standard" parent="NemoEditTextStyle">
+        <item name="android:textColor">@color/zorro_black_70</item>
+        <item name="android:textColorHint">@color/zorro_black_20</item>
+        <item name="android:background">@drawable/zorro_theme_edit_text_holo_light</item>
+    </style>
+
+    <style name="NemoFeedbackEditText">
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">top</item>
+        <item name="android:textColor">@color/zorro_black_70</item>
+        <item name="android:textColorHint">#66282828</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_color</item>
+        <item name="android:inputType">textMultiLine</item>
+    </style>
+    <style name="NemoAutoCompleteStyle" parent="@android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/zorro_theme_edit_text_holo_light</item>
+        <item name="android:popupBackground">@drawable/bg_auto_complete_dropdown</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_stylingactionbar
+        </item>
+        <item name="android:textColor">@color/zorro_black_70</item>
+        <item name="android:textColorHint">@color/zorro_black_20</item>
+    </style>
+
+    <style name="NemoDialogStyle" parent="android:Theme.Holo.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:background">@color/transparent</item>
+
+    </style>
+
+    <style name="DialpadButtonStyle">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/phone_btn_pads</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="NemoActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/action_bar_bg_color</item>
+        <item name="android:backgroundStacked">@color/zorro_main_color</item>
+        <!-- item name="android:backgroundSplit">@color/red</item-->
+        <item name="android:titleTextStyle">@style/NemoActionBarTitle</item>
+        <item name="android:actionMenuTextAppearance">@style/MyActionBar.MenuTextStyle</item>
+    </style>
+
+    <style name="MyActionBar.MenuTextStyle"
+        parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/zorro_main_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="action_MenuTextStyle">
+        <item name="android:textColor">@color/zorro_black_60</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- ActionTab Text styles -->
+    <style name="NemoActionTabTextStyle" parent="@android:style/Widget.Holo.Light.ActionButton">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- 标题栏的标题样式 -->
+    <style name="NemoActionBarTitle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/zorro_black_60</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <!-- Popup style Pressed style -->
+    <style name="DropDownListView" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_stylingactionbar</item>
+        <item name="android:divider">@color/zorro_black_15</item>
+        <item name="android:dividerHeight">1px</item>
+    </style>
+
+    <!-- Popup style Background style -->
+    <style name="DropDownNav" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:popupBackground">@drawable/bg_action_more_bg</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_stylingactionbar
+        </item>
+    </style>
+
+    <!-- Popup style Text style -->
+    <style name="DropDownItem"
+        parent="@android:style/Widget.Holo.Light.DropDownItem.Spinner"></style>
+
+    <style name="Theme.stylingactionbar.widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView</item>
+        <item name="android:textColor">@color/zorro_black_70</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:listPreferredItemHeight">45dp</item>
+        <item name="android:listPreferredItemHeightSmall">45dp</item>
+        <item name="android:listPreferredItemHeightLarge">45dp</item>
+    </style>
+
+    <style name="PopupMenu" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/bg_action_more_bg</item>
+    </style>
+
+    <style name="MyApp.Dialog" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:borderlessButtonStyle">@style/MyApp.BorderlessButton</item>
+        <item name="android:buttonStyle">@style/MyApp.BorderlessButton</item>
+        <item name="android:textColor">#0000ff</item>
+    </style>
+
+    <style name="MyApp.BorderlessButton" parent="@android:style/Widget.Holo.Button.Borderless">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#00ff00</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">#ff0000</item>
+    </style>
+
+    <style name="BorderlessButton" parent="@android:style/Widget.Holo.Button.Borderless">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/zorro_black_70</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="DefaultBorderlessButton" parent="BorderlessButton">
+        <item name="android:textColor">@color/chooser_orange</item>
+    </style>
+    <style name="AutoCompleteTextView"
+        parent="android:Widget.Holo.Light.AutoCompleteTextView">
+        <item name="android:dropDownSelector">@drawable/zorro_theme_list_selector_holo_light</item>
+        <item name="android:background">@drawable/zorro_theme_edit_text_holo_light</item>
+    </style>
+
+    <style name="Button" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/zorro_theme_btn_default_holo_light</item>
+    </style>
+
+    <style name="ImageButtonnemo_theme" parent="android:Widget.Holo.Light.ImageButton">
+        <item name="android:background">@drawable/zorro_theme_btn_default_holo_light</item>
+    </style>
+
+    <style name="Spinnernemo_theme" parent="android:Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/zorro_theme_spinner_background_holo_light</item>
+        <item name="android:dropDownSelector">@drawable/zorro_theme_list_selector_holo_light</item>
+    </style>
+
+    <style name="Tabnemo_theme">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+        <item name="android:background">@drawable/zorro_theme_tab_indicator_holo</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:minWidth">80dip</item>
+    </style>
+
+    <style name="TabTextnemo_theme">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <!-- v14 <item name="android:textAllCaps">true</item> -->
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:maxWidth">180dip</item>
+    </style>
+
+    <style name="ProgressBarnemo_theme" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/zorro_theme_scrubber_progress_horizontal_holo_light</item>
+        <item name="android:indeterminateDrawable">@drawable/zorro_theme_progress_indeterminate_horizontal_holo_light</item>
+    </style>
+
+    <style name="SeekBarnemo_theme" parent="android:Widget.Holo.Light.SeekBar">
+        <item name="android:progressDrawable">@drawable/zorro_theme_scrubber_progress_horizontal_holo_light</item>
+        <item name="android:indeterminateDrawable">@drawable/zorro_theme_scrubber_progress_horizontal_holo_light</item>
+        <item name="android:thumb">@drawable/zorro_theme_scrubber_control_selector_holo_light</item>
+    </style>
+
+    <style name="RatingBarnemo_theme" parent="android:Widget.Holo.Light.RatingBar">
+        <item name="android:progressDrawable">@drawable/zorro_theme_ratingbar_full_holo_light</item>
+        <item name="android:indeterminateDrawable">@drawable/zorro_theme_ratingbar_full_holo_light</item>
+    </style>
+
+    <style name="RatingBarBignemo_theme" parent="android:Widget.Holo.Light.RatingBar.Indicator">
+        <item name="android:progressDrawable">@drawable/zorro_theme_ratingbar_holo_light</item>
+        <item name="android:indeterminateDrawable">@drawable/zorro_theme_ratingbar_holo_light</item>
+    </style>
+
+    <style name="RatingBarSmallnemo_theme" parent="android:Widget.Holo.Light.RatingBar.Small">
+        <item name="android:progressDrawable">@drawable/zorro_theme_ratingbar_small_holo_light</item>
+        <item name="android:indeterminateDrawable">@drawable/zorro_theme_ratingbar_small_holo_light</item>
+    </style>
+
+    <style name="Togglenemo_theme" parent="android:Widget.Holo.Light.Button.Toggle">
+        <item name="android:background">@drawable/zorro_theme_btn_toggle_holo_light</item>
+    </style>
+
+</resources>

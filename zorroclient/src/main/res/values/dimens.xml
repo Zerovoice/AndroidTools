@@ -1,0 +1,58 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="local_cell_pandding">5dp</dimen>
+
+    <dimen name="activity_video_margin">5dp</dimen>
+    <dimen name="list_standard_padding">8dp</dimen>
+    <dimen name="comp_margin_sides">15dp</dimen>
+    <dimen name="standard_list_divider_padding">15dp</dimen>
+    <dimen name="standard_list_content_padding">5dp</dimen>
+
+    <!-- Page Indicator Dimens -->
+    <dimen name="default_indicator_line_width">30dp</dimen>
+    <dimen name="default_indicator_gap_width">15dp</dimen>
+    <dimen name="default_indicator_stroke_width">4dp</dimen>
+    <color name="default_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_indicator_unselected_color">#FFAAAAAA</color>
+    <bool name="default_indicator_centered">true</bool>
+
+    <dimen name="page_label_text_size">16sp</dimen>
+    <dimen name="page_value_text_size">15sp</dimen>
+
+    <dimen name="general_space">15dp</dimen>
+
+    <dimen name="circle_share_album_space">2dp</dimen>
+
+    <dimen name="dialpad_vertical_margin">0dp</dimen>
+    <dimen name="dialpad_digits_text_size">30sp</dimen>
+
+    <dimen name="remote_control_ball_distance">7.3dp</dimen>
+    <dimen name="remote_control_toolbar_min_width">70dp</dimen>
+
+    <!--navigation bar-->
+    <dimen name="navigation_bar_title_size">17sp</dimen>
+
+    <dimen name="setting_text_33dp">33dp</dimen>
+    <dimen name="setting_text_9dp">9dp</dimen>
+    <dimen name="setting_text_13dp">13dp</dimen>
+
+    <dimen name="nemo_number_family_item_height">42dp</dimen>
+    <dimen name="nemo_number_family_item_bold">13.3sp</dimen>
+    <dimen name="nemo_number_family_item_thin">12sp</dimen>
+    <dimen name="nemo_number_family_btn_size">15.3sp</dimen>
+    <dimen name="nemo_number_family_item_center_padding">13dp</dimen>
+
+    <dimen name="loading_view_ball_size">6dp</dimen>
+    <dimen name="loading_view_ball_up_translation_y">2dp</dimen>
+    <dimen name="loading_view_ball_down_translation_y">3dp</dimen>
+
+    <dimen name="remote_control_pannel_default_2_margin_top">70dp</dimen>
+    <dimen name="remote_control_pannel_4_0_2_margin_top">56dp</dimen>
+    <dimen name="remote_contro_panel_left_layout_width">122dp</dimen>
+
+    <dimen name="cell_state_user_profile_name_text_size">7sp</dimen>
+    <dimen name="cell_state_user_profile_name_fs_text_size">15sp</dimen>
+</resources>

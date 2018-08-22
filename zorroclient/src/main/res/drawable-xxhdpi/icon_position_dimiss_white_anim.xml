@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+        <item android:drawable="@drawable/icon_position_dimiss_white_1" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_position_dimiss_white_2" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_position_dimiss_white_3" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_position_dimiss_white_4" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_position_dimiss_white_5" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_position_dimiss_white_6" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_position_dimiss_white_7" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_position_dimiss_white_8" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_position_dimiss_white_9" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_position_dimiss_white_10" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_position_dimiss_white_11" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_position_dimiss_white_12" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_position_dimiss_white_13" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_position_dimiss_white_14" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_position_dimiss_white_15" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_position_dimiss_white_16" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_position_dimiss_white_17" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_position_dimiss_white_18" android:duration="30"></item>
+        <item android:drawable="@drawable/icon_transparent" android:duration="30"></item>
+</animation-list>

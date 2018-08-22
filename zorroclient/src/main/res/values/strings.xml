@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">zorroclient</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="downloading">down loading...</string>
+    <string name="cancel">cancel</string>
+    <string name="OK">OK</string>
+</resources>
