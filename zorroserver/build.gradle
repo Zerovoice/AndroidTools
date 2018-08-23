@@ -6,7 +6,7 @@ android {
 
 
     defaultConfig {
-        applicationId "com.zorro.fishcoreserver"
+        applicationId "com.zorro.zorroserver"
         minSdkVersion 23
         targetSdkVersion 27
         versionCode 1

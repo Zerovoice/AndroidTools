@@ -6,4 +6,7 @@
     <string name="downloading">down loading...</string>
     <string name="cancel">cancel</string>
     <string name="OK">OK</string>
+    <string name="title">标题</string>
+    <string name="content">内容</string>
+    <string name="dialog_alert_title">提示</string>
 </resources>
