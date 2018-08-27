@@ -30,7 +30,7 @@ public class FaceDetectionActivity extends BaseMobileActivity{
 //    private File tempFile = null;
 //    private float btnX = 0;
 //
-//    private long mNemoId;
+//    private long mId;
 //    private String mUserName;
 //    private String mFaceOrigin;
 //
