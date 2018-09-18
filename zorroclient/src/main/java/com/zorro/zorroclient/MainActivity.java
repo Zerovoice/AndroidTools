@@ -26,6 +26,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.sql.DriverManager;
 import java.util.LinkedList;
 
 public class MainActivity extends AppCompatActivity {
@@ -115,6 +116,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startService();
+                connectDatabase();
             }
         });
         bt2.setOnClickListener(new View.OnClickListener() {
@@ -151,6 +153,28 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+    }
+
+    private void connectDatabase() {
+        String url = "jdbc:mysql://localhost:3306/retailmode?"
+                + "user=root&password=Zero00!@&useUnicode=true&characterEncoding=UTF8";
+
+        try {
+            // 之所以要使用下面这条语句，是因为要使用MySQL的驱动，所以我们要把它驱动起来，
+            // 可以通过Class.forName把它加载进去，也可以通过初始化来驱动起来，下面三种形式都可以
+            Class.forName("com.mysql.jdbc.Driver");// 动态加载mysql驱动
+            // or:
+            // com.mysql.jdbc.Driver driver = new com.mysql.jdbc.Driver();
+            // or：
+            // new com.mysql.jdbc.Driver();
+
+            System.out.println("成功加载MySQL驱动程序");
+            // 一个Connection代表一个数据库连接
+            DriverManager.getConnection(url);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
 
